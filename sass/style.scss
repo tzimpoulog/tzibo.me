@@ -20,11 +20,11 @@ $brand-sass: #CD669A !default;
 $brand-bootstrap: #7952B3 !default;
 $brand-git: #F05033 !default;
 $brand-white: #fff;
-$brand-black: #000;
+$brand-black: #C3073F;
 $brand-darker: #444;
-$brand-gray: #dfe3ee;
+$brand-gray: #1A1A1D;
 $brand-lighter: #e9e9e9;
-$brand-body-color: #e8e8e8;
+$brand-body-color: #4E4E50;
 $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
@@ -114,6 +114,7 @@ body {
     font-size: 15px;
     line-height: 1.8;
     color: rgba(0, 0, 0, .7);
+    background: $brand-body-color;
     @media screen and (max-width: $screen-md) {
         font-size: 16px;
     }
