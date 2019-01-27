@@ -213,6 +213,7 @@ figure {
         margin-bottom: 2em;
         font-size: 12px;
         text-transform: uppercase;
+        color: #fff;
     }
     #tzini-logo {
         text-align: right;
@@ -250,7 +251,7 @@ figure {
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 a {
-                    color: rgba(0, 0, 0, .7);
+                    color: rgba(255, 255, 255, .7);
                     text-decoration: none;
                     position: relative;
                     padding: 10px 0;
@@ -263,7 +264,7 @@ figure {
                         bottom: 7px;
                         left: 0;
                         right: 0;
-                        background-color: $brand-primary;
+                        background-color: $brand-black;
                         visibility: hidden;
                         -webkit-transform: scaleX(0);
                         -moz-transform: scaleX(0);
@@ -278,7 +279,7 @@ figure {
                     }
                     &:hover {
                         text-decoration: none;
-                        color: rgba(0, 0, 0, 1);
+                        color: rgba(78, 78, 80, 1);
                         &:after {
                             visibility: visible;
                             -webkit-transform: scaleX(1);
@@ -291,7 +292,7 @@ figure {
                 }
                 &.active {
                     a {
-                        color: $brand-primary;
+                        color: $brand-black;
                         &:after {
                             visibility: visible;
                             -webkit-transform: scaleX(1);
@@ -823,11 +824,11 @@ body {
 .services {
     margin-bottom: 30px;
     padding: 1.5em;
-    -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-    -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-    -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 0px 16px 28px -8px rgba(195, 7, 63, 0.4);
+    -moz-box-shadow: 0px 16px 28px -8px rgba(195, 7, 63, 0.4);
+    -ms-box-shadow: 0px 16px 28px -8px rgba(195, 7, 63, 0.4);
+    -o-box-shadow: 0px 16px 28px -8px rgba(195, 7, 63, 0.4);
+    box-shadow: 0px 16px 28px -8px rgba(195, 7, 63, 0.4);
     border-bottom: 2px solid $brand-primary;
     .icon2 {
         display: block;
