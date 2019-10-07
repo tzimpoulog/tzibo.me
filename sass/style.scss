@@ -114,7 +114,7 @@ body {
     font-size: 15px;
     line-height: 1.8;
     color: rgba(0, 0, 0, .7);
-    background: $brand-body-color;
+    background: $brand-lighter;
     @media screen and (max-width: $screen-md) {
         font-size: 16px;
     }
@@ -264,7 +264,7 @@ figure {
                         bottom: 7px;
                         left: 0;
                         right: 0;
-                        background-color: $brand-black;
+                        background-color: $brand-white!important;
                         visibility: hidden;
                         -webkit-transform: scaleX(0);
                         -moz-transform: scaleX(0);
@@ -519,7 +519,7 @@ body {
         #tzini-aside {
             @include translateX(0);
             width: 300px;
-            background: $brand-gray;
+            background: $brand-white;
             z-index: 999;
             position: fixed;
         }
@@ -593,7 +593,7 @@ body {
     display: block;
     font-size: 10px;
     text-transform: uppercase;
-    color: lighten($brand-black, 60%);
+    color: $brand-darker;
     font-weight: 500;
     letter-spacing: 5px;
 }
