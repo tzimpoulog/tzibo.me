@@ -1,7 +1,7 @@
 # tzibo.me
 My personal website
 
-## Usage
+## About ME
 
 Hi I'm Tzimpoulas Nikos my friends call me Tzibo. Since beginning my journey as Developer nearly 4 years ago, I gained credits as being a creative and experienced professional, but I also gained the ability to understand my clients’ business needs by converting them into measurable results.
 
